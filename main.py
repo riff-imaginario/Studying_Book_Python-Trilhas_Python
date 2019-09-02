@@ -11,7 +11,7 @@ from random import randint
 def main(stdscr):
     stdscr.clear()
     stdscr.border()
-    boas_vindas()
+    boas_vindas(stdscr)
     stdscr.refresh()
 
     while True:
